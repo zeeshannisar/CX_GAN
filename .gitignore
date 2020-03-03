@@ -1,3 +1,5 @@
-dataset/
-outputs/
-saved models/
+Cascaded Model/BRATS Data/dataset/train/
+Cascaded Model/BRATS Data/dataset/test/
+
+Cascaded Model/BRATS Data/saved models/Step 1
+Cascaded Model/BRATS Data/saved models/Step 2
