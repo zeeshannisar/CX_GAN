@@ -1,1 +1,1 @@
-Saved Model can be shared on your request with a google drive link. You can directly email at zshnnisar@gmail.com for request or any other query.
+Saved weights for corresponding keras models can be shared on your request with a google drive link. You can directly email at zshnnisar@gmail.com or shakeebmurtaza@outlook.com for request or any other query.
