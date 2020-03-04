@@ -1,4 +1,4 @@
-# Cascaded Model Architecture and Implementation for Different Datasets:
+# Cascaded Model Architecture and Implementation:
 
 ## Architecture
 
