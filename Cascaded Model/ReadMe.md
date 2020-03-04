@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="ReadMe Images/Architecture.png" >
+    <img src="https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/ReadMe%20Images/Architecture.png" >
 </p>
 
 
