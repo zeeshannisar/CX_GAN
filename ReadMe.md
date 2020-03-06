@@ -14,7 +14,7 @@ In our Cascaded Model we aim to acheive two cascaded objectives: **1)** learning
 ## Cascaded Model Architecture
 
 <p align="center">
-    <img src="https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/ReadMe%20Images/Architecture.png" >
+    <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/cascaded%20model.png" >
 </p>
 
 
