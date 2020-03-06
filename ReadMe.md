@@ -19,7 +19,13 @@ In our Cascaded Model we aim to acheive two cascaded objectives: **1)** learning
 </p>
 
 ### Integrated End-to-End Model:
+A disadvantage of the cascaded model is that separate networks are trained for CX and CI generation, and the performance of CX network relies on efficacy of the CI generation network. This section presents a method for joint learning of both CX and CI through an integrated model. We built on [CycleGAN:Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/abs/1703.10593) by empowering it to describe transformations while generating pairs across domains. In contrast to the standard CycleGAN, where G and F directly map samples from one domain to another, we want G or F to learn changes that can be made in images of one domain in order to produce images of another domain.
 
+#### Integrated Model Architecture:
+
+<p align="center">
+    <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/integrated%20model.png" >
+</p>
   
 ### Results:
 We perform experiments on a synthetic dataset and two publically available medical imaging datasets including BraTS and tuberculosis datasets (i.e. Shenzhen, Montgomery County and Korean Institute of Tuberculosis). We evaluate our proposed method against comparable visual explanation methods including [CAM](https://arxiv.org/abs/1512.04150), [Grad-CAM](https://arxiv.org/abs/1610.02391) and [VA-GAN](https://arxiv.org/abs/1711.08998), where [CAM](https://arxiv.org/abs/1512.04150) and [Grad-CAM](https://arxiv.org/abs/1610.02391) use classification networks, while [VA-GAN](https://arxiv.org/abs/1711.08998) and the proposed CXGAN employ image translation networks.
