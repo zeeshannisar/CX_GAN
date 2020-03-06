@@ -45,10 +45,10 @@ The input data is preprocessed with the following steps: (1) border from the edg
 </p>
 
 #### BraTS Data:
-The dataset contains brain MRIs classified into normal and tumorous classes. We preprocess the data to filter-out MRI slices that contain the full brain. The dataset contains 3174 images where 2711 are tumorous and 463 non-tumorous. We split each set into 80-20 train/test sets, resulting in 2538 training images and 636 testing images. The filtered slices are resized to 256*256 and the
+The dataset contains brain MRIs classified into normal and tumorous classes. We preprocess the data to filter-out MRI slices that contain the full brain. The dataset contains 3174 images where 2711 are tumorous and 463 non-tumorous. We split each set into 80-20 train/test sets, resulting in 2538 training images and 636 testing images. The filtered slices are resized to 256 * 256 and the
 data normalized to the 0-to-1 range. We further increase the data size by performing run-time augmentation on training
 sets through random jittering and mirroring. For augmenting, the images are scaled to 286 * 286 and then randomly
-cropped to 256*256.
+cropped to 256 * 256.
 <p align="center">
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/BRATS.png" >
 </p>
