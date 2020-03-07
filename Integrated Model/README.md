@@ -4,12 +4,12 @@ All of these implementations are originally inspired from https://github.com/eri
 
 This code can be directly comiled on COLAB. You just need to set dataset and modelhistory path.
 
-## Result History for Integrated CX-GAN on BRATS 2017 dataset
+## Training History for Integrated CX-GAN on BRATS 2017 dataset
 <p align="center">
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Integrated_BRATS_data_train_history.gif" >
 </p>
 
-## Result History for Integrated CX-GAN on synthetic Dataset
+## Training History for Integrated CX-GAN on synthetic Dataset
 <p align="center">
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Integrated_Synthetic_data_train_history.gif" >
 </p>
