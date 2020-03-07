@@ -14,9 +14,6 @@ This code can be directly comiled on COLAB. You just need to set dataset and mod
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Integrated_Synthetic_data_train_history.gif" >
 </p>
 
-https://github.com/eriklindernoren/Keras-GAN/blob/master/cyclegan/cyclegan.py
-
-
 ## Note:
 New models are continously being added at daily basis.
 
