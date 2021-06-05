@@ -45,7 +45,7 @@ This dataset contains de-identified Chest X-Rays (CXRs) from three different pub
 
 The input data is preprocessed with the following steps: (1) border from the edges of each CXR is cropped to exempt noisy ratio, (2) from 4K×4K pixels, each CXR is resized to 527×527 pixels and cropped 15 pixels away randomly to retain lesions shape in abnormal regions. Any additional augmentations (except for horizontal mirroring and flipping) allowable for lesion deformation is not adopted. In the final step, each data sample is normalized with z-score normalization. We split the overall dataset to 80:20 for training and validation/test set.
 <p align="center">
-    <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Combine-Results.png" >
+    <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/TB.png" >
 </p>
 
 #### BraTS Data:
