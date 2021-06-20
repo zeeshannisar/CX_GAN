@@ -3,10 +3,10 @@ This Repository contains the code of our submitted paper titled **Counterfactual
 
 ## Proposed Models and Results
   + [Cascaded Model](#cascaded-model)
-      + [Implementation and Results](#implementation-and-results)
+      + [Cascaded Model Implementation and Results](#cascaded-model-implementation-and-results)
   + [Integrated End-to-End Model](#integrated-end-to-end-model)
-      + [Implementation and Results](#implementation-and-results)
-  + [Results](#results)
+      + [Integrated Model Implementation and Results](#integrated-model-implementation-and-results)
+  + [Paper Results](#paper-results)
   
 ### Cascaded Model:
 In our Cascaded Model we aim to acheive two cascaded objectives:
@@ -24,7 +24,7 @@ We view CI generation as unpaired image-to-image translation and CX as image-to-
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/cascaded%20model.png" >
 </p>
 
-#### Implementation and Results:
+#### Cascaded Model Implementation and Results:
 
 ##### Synthetic Data
 The entire experiments and evaluations for Synthetic data had carried out for a synthetically generated dataset. The script to generate synthetic data can be found at [Synthetic Data Generate Script](https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/Cascaded%20Model/Synthetic%20Data/implementation/Script%20to%20Prepare%20Synthetic%20Data.ipynb) originally 
@@ -65,7 +65,7 @@ A disadvantage of the cascaded model is that separate networks are trained for C
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/integrated%20model.png" >
 </p>
 
-#### Implementation and Results:
+#### Integrated Model Implementation and Results:
 This code can be directly comiled on COLAB. You just need to set dataset and modelhistory path.
 
 ## Training History for Integrated CX-GAN on BRATS 2017 dataset
@@ -78,7 +78,7 @@ This code can be directly comiled on COLAB. You just need to set dataset and mod
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Integrated_Synthetic_data_train_history.gif" >
 </p>
   
-### Results:
+### Paper Results:
 We perform experiments on a synthetic dataset and two publically available medical imaging datasets including BraTS and tuberculosis datasets (i.e. Shenzhen, Montgomery County and Korean Institute of Tuberculosis). We evaluate our proposed method against comparable visual explanation methods including [CAM](https://arxiv.org/abs/1512.04150), [Grad-CAM](https://arxiv.org/abs/1610.02391) and [VA-GAN](https://arxiv.org/abs/1711.08998), where [CAM](https://arxiv.org/abs/1512.04150) and [Grad-CAM](https://arxiv.org/abs/1610.02391) use classification networks, while [VA-GAN](https://arxiv.org/abs/1711.08998) and the proposed CXGAN employ image translation networks.
 
 #### Synthetic Data:
