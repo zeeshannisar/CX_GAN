@@ -3,6 +3,7 @@ This Repository contains the code of our submitted paper titled **Counterfactual
 
 ## Proposed Models and Results
   + [Cascaded Model](#cascaded-model)
+      + Implementation and Results(#implementation-and-results)
   + [Integrated End-to-End Model](#integrated-end-to-end-model)
   + [Results](#results)
   
@@ -22,9 +23,9 @@ We view CI generation as unpaired image-to-image translation and CX as image-to-
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/cascaded%20model.png" >
 </p>
 
-## Implementation and Results:
+#### Implementation and Results:
 
-#### Synthetic Data
+##### Synthetic Data
 The entire experiments and evaluations for Synthetic data had carried out for a synthetically generated dataset. The script to generate synthetic data can be found at [Synthetic Data Generate Script](https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/Cascaded%20Model/Synthetic%20Data/implementation/Script%20to%20Prepare%20Synthetic%20Data.ipynb) originally 
 inspired from [**Visual Feature Attribution using Wasserstein GANs**](https://arxiv.org/abs/1711.08998). We have used [**CycleGAN:Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**](https://arxiv.org/abs/1703.10593) as our [Base-Network/Step-1](https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/Cascaded%20Model/Synthetic%20Data/implementation/Step%201-Generate%20Normal%20Distribution%20from%20Infected%20Distribution%20with%20CycleGANs.ipynb) to generate a normal distribution against an anomalous distribution. [Step-1](https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/Cascaded%20Model/Synthetic%20Data/implementation/Step%201-Generate%20Normal%20Distribution%20from%20Infected%20Distribution%20with%20CycleGANs.ipynb) is used for generating pairs i.e., for each anomalous image we get a normal image. The results of the [Step-1](https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/Cascaded%20Model/Synthetic%20Data/implementation/Step%201-Generate%20Normal%20Distribution%20from%20Infected%20Distribution%20with%20CycleGANs.ipynb) seems like below.
 
@@ -38,7 +39,7 @@ Finally we have introduced an approach as [Step-2](https://github.com/zeeshannis
     <img src="https://github.com/zeeshannisar/Research-Paper-Contribution/blob/master/Cascaded%20Model/Synthetic%20Data/outputs/Step%202.png" >
 </p>
 
-#### BRATS Data
+##### BRATS Data
 
 The entire experiments and evaluations for BRATS data had carried out on BRATS 2017 dataset. We have used
 [**CycleGAN:Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks**](https://arxiv.org/abs/1703.10593) as our
