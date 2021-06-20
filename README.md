@@ -5,6 +5,7 @@ This Repository contains the code of our submitted paper titled **Counterfactual
   + [Cascaded Model](#cascaded-model)
       + [Implementation and Results](#implementation-and-results)
   + [Integrated End-to-End Model](#integrated-end-to-end-model)
+      + [Implementation and Results](#implementation-and-results)
   + [Results](#results)
   
 ### Cascaded Model:
@@ -62,6 +63,19 @@ A disadvantage of the cascaded model is that separate networks are trained for C
 
 <p align="center">
     <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/integrated%20model.png" >
+</p>
+
+#### Implementation and Results:
+This code can be directly comiled on COLAB. You just need to set dataset and modelhistory path.
+
+## Training History for Integrated CX-GAN on BRATS 2017 dataset
+<p align="center">
+    <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Integrated_BRATS_data_train_history.gif" >
+</p>
+
+## Training History for Integrated CX-GAN on synthetic Dataset
+<p align="center">
+    <img src="https://github.com/zeeshannisar/CX_GAN/blob/master/ReadMe%20Images/Integrated_Synthetic_data_train_history.gif" >
 </p>
   
 ### Results:
