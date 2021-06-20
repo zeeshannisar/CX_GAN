@@ -3,7 +3,7 @@ This Repository contains the code of our submitted paper titled **Counterfactual
 
 ## Proposed Models and Results
   + [Cascaded Model](#cascaded-model)
-      + Implementation and Results(#implementation-and-results)
+      + [Implementation and Results](#implementation-and-results)
   + [Integrated End-to-End Model](#integrated-end-to-end-model)
   + [Results](#results)
   
